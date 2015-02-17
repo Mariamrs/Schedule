@@ -1,21 +1,68 @@
-﻿body {
-    background: ;
-    font-family: 'a_AvanteRough Light', serif;
+﻿@font-face {
+    font-family: 'Circe Light';
+    src: url("../Fonts/CRC35.otf");
+}
+
+body {
+        font-family: 'Circe Light', sans-serif;
+        width: 1280px;
+        margin: 0 auto;
 }
 
 div.main {
-    width: 1280px;
+    width: 910px;
     margin: 0 auto;
-}
-
-div.block {
-    width: 980px;
-    margin: 0 auto;
+    border: 1px solid;
+    padding: 30px 70px;
+    position: relative;
 }
 
 h1 {
-    text-transform: uppercase;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     font-weight: normal;
+    padding: 0 0 15px 0;
+    margin: 0;
 }
+
+tr.firstline {
+    font-family: 'a_AvanteRough Light', serif;
+    font-size: 24px;
+    /* height: 52px;  */
+}
+
+table {
+    border-spacing: 10px;
+}
+
+td {
+    width: 185px;
+
+}
+
+/*.firstline .today {
+    background-image: url(../Images/border.png);
+}   */
+
+div.button {
+    width: 68px;
+    height: 73px;
+    background-image: url(../Images/button.png);
+    position: absolute;
+    top: 117px;
+    left: 0;
+}
+
+.button p {
+    margin: 10px;
+}
+
+/* img {
+    position: absolute;
+    top: 145px;
+    left: 0;
+}
+
+/*.main .table {
+    margin: 0 70px;
+}   */
